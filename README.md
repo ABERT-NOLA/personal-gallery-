@@ -30,8 +30,8 @@ Open the project on your Text Editor/IDE
 
 Run python3 manage.py runserver on your terminal
 
-## Author
-Albert Obwoge
+### Author
+Albert Obwoge,
 albertnyambegaa@gmail.com
 
 
