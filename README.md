@@ -1,16 +1,16 @@
-## Gallery
+# Gallery
 Gallery is a platform where users can view, multiple images.
-# About
+## About
 Gallery is a platform where users can view, multiple images.
 
-# Prerequisites
+## Prerequisites
 Have Git installed.
 Have Python and Pip Installed
 Have a text editor or an IDE installed e.g VS Code, Atom
-# Technologies Used
+## Technologies Used
 Python, Django, JavaScript, CSS and HTML
 VS Code.
-# Setup Installation
+## Setup Installation
 To run the application:-
 
 Clone the repository to a folder in your machine using https://github.com/ABERT-NOLApersonal-gallery-.git
@@ -30,7 +30,7 @@ Open the project on your Text Editor/IDE
 
 Run python3 manage.py runserver on your terminal
 
-# Author
+## Author
 Albert Obwoge
 albertnyambegaa@gmail.com
 
