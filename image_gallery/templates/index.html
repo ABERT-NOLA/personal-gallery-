@@ -1,18 +1,16 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>image Gallerry</title>
+    <title>Image Gallery</title>
 </head>
 <body>
     <center>
-        <h1>How to create a dynamically image Gallerry project</h1>
-        <h2>Django web frame work
-            <hr/>
-            {% for results in imggal%}
-            {{results.imggal}}
+        <hi>Image Gallery Project</hi>
+        <h2>Django Web Framework</h2>
+        <hr/>
+        {% for results in imggal%}
+        {{results.imggal}}<br/>
+        {{results.imgdesc}}<br/>
+        {{results.image.url}}
             { endfor %}
-        </h2>
     </center>
 </body>
-</html>

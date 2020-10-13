@@ -3,4 +3,4 @@ from image_gallery.models import imggal
 
 def imagedisplay(request):
     resultsdisplay-imggal.objects.all()
-return render(request,'index.html',{'imggal':resultsdisplay})
+    return render(request,'index.html',{'imggal':resultsdisplay})
