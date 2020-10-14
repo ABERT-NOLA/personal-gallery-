@@ -1,10 +1,10 @@
 from django.db import models
 
 class imggal(models.Model):
-    imgtitle=models.CharField(max_length=100)
-    imgdesc=models.CharField(max_length=500)
+    imgtitle=models.CharField(max_length=50)
+    imgdesc=models.TextField(max_length=500)
     image=models.ImageField(upload_to='images/')
-    location=models.ForeignKey('location',on_delete=models.CASCADE)
+    location=models.ForeignKey('location',null=True,on_delete=models.CASCADE)
 
     def __str__(self):
         return self.imgtitle

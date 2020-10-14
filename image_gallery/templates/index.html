@@ -11,18 +11,26 @@
         <h2>Django Web Framework</h2>
         <hr/>
     </center>
-        <div class="container">
-            <div class="row">
-        {% for results in imggal %}
-        <div class="col-3">
-        <h3 style="color: blue;">{{results.imgtitle}}</h3>
-        {{results.imgdesc}}<br/>
-        <img src="{{results.image.url}}" height="150" width="160" alt="{{results.imgtitle}}" title="results.imgtitle"/>
-        <b>{{results.imgdesc}}</b>
-        <hr/>
+    {% for results in imggal %}
+    <div class="row">
+        <div class="col-md-12">
+          <div id="mdb-lightbox-ui"></div>
+          <div class="mdb-lightbox no-margin">
+            <figure class="col-md-4">
+                <h3 style="color: blue;">{{results.imgtitle}}</h3>
+              <a href="{{results.image.url}}" data-size="1600x1067">
+                <img src="{{results.image.url}}" class="img-fluid">
+              </a>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">{{results.imgtitle}}</h5>
+                  <p class="card-text">{{results.imgdesc}}</p>
+                  <p class="card-text">{{location.name}}</p>
+                </div>
+            </figure>
+          </div>
         </div>
-         {% endfor %}
-         </div> 
-        </div>
+      </div>
+      {% endfor %}
 </body>
 </html>
