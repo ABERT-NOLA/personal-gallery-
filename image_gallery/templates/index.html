@@ -11,7 +11,7 @@
         <h2>Django Web Framework</h2>
         <hr/>
         <form method='GET' action="">
-          <input type="text" name="search" placeholder="Search posts"/>
+          <input type="text" name="search" placeholder="Search photo"/>
           <input type="submit"  value="Search"/>
           </form>
     </center>
@@ -23,7 +23,7 @@
             <figure class="col-md-4">
                 <h3 style="color: blue;">{{results.imgtitle}}</h3>
               <a href="{{results.image.url}}" data-size="1600x1067">
-                <img src="{{results.image.url}}" class="img-fluid" alt="{{image.caption}}" Snow style="width:100%">
+                <img src="{{results.image.url}}" class="img-fluid" alt="{{image.caption}}" height="450" width=" 100%" Snow style="width:100%" title="{{image.caption}}">
               </a>
               <div class="col-md-8">
                 <div class="card-body">
