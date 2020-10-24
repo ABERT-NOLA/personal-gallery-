@@ -7,7 +7,7 @@ Gallery is a platform where users can view, multiple images.
 Have Git installed.
 Have Python and Pip Installed
 Have a text editor or an IDE installed e.g VS Code, Atom
-## Technologies Used
+## Technologies Used To build APP
 Python, Django, JavaScript, CSS and HTML
 VS Code.
 ## Setup Installation
