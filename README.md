@@ -3,7 +3,7 @@ Gallery is a platform where users can view, multiple images.
 ## Description
 Gallery is a platform where users can view, multiple images.
 
-## Prerequisites
+## Prerequisites for app
 Have Git installed.
 Have Python and Pip Installed
 Have a text editor or an IDE installed e.g VS Code, Atom
