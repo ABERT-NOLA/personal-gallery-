@@ -1,6 +1,6 @@
 # Gallery
 Gallery is a platform where users can view, multiple images.
-## About
+## Description
 Gallery is a platform where users can view, multiple images.
 
 ## Prerequisites
