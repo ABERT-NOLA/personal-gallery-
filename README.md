@@ -29,7 +29,8 @@ python3 manage.py migrate
 Open the project on your Text Editor/IDE
 
 Run python3 manage.py runserver on your terminal
-
+# License
+MIT License
 ### Author
 Albert Obwoge,
 albertnyambegaa@gmail.com
